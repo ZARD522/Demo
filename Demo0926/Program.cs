@@ -40,14 +40,14 @@ namespace Demo0926
 
         }
 
-        public void Swap(int a,int b)
-        {
-            int min = a;
-            if (a > b)
-            {
-                min = b;
-            }
-        }
+        //public void Swap(int a,int b)
+        //{
+        //    int min = a;
+        //    if (a > b)
+        //    {
+        //        min = b;
+        //    }
+        //}
 
     }
 }

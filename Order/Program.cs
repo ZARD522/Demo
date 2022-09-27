@@ -31,11 +31,11 @@ namespace Order
 
         }
 
-
+        //冒泡排序
         static void BubbleSort(int[] intArray)
         {
             
-            //冒泡排序
+            
             for (int i = 0; i < intArray.Length - 1; i++)//进行length-1轮比较
             {
                 //进行比较
@@ -56,3 +56,4 @@ namespace Order
 
     }
 }
+
