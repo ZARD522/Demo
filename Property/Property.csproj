@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F4B865C2-0F05-4E51-BCC1-389E03D73887}</ProjectGuid>
+    <ProjectGuid>{BDA59EA9-0B27-4770-AA4C-6CB1058A4A54}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Succeed</RootNamespace>
-    <AssemblyName>Succeed</AssemblyName>
+    <RootNamespace>Property</RootNamespace>
+    <AssemblyName>Property</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseClass.cs" />
-    <Compile Include="DerivedClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vector.cs" />
+    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

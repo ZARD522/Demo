@@ -8,6 +8,8 @@ namespace Succeed
 {
     class DerivedClass:BaseClass
     {
+
+        
         public int getArea()
         {
             return (width * height);

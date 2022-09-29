@@ -9,16 +9,18 @@ namespace Succeed
     class BaseClass
     {
 
-        protected int width;
+        protected int width;//子类可访问
         protected int height;
-        public void setWidth(int w)
+        public void setWidth(int width)
         {
-            width = w;
+            this.width = width;
         }
-        public void setHeight(int h)
+        public void setHeight(int height)
         {
-            height = h;
+           this.height = height;
         }
+
+
         
     }
 }
